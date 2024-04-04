@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Box icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Seu carrinho</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <div class="top-nav">
+      <div class="container d-flex">
+        <p>Faça seu pedido on-line ou ligue para nós: (13) 3422-2617</p>
+        <ul class="d-flex">
+          <li><a href="#">Sobre nós</a></li>
+          <li><a href="#">Perguntas frequentes</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="navigation">
+      <div class="nav-center container d-flex">
+        <a href="index.html" class="logo"><h1>Santo Biquini</h1></a>
+
+        <ul class="lista de navegação d-flex">
+          <li class="nav-item">
+            <a href="/" class="nav-link">Página inicial</a>
+          </li>
+          <li class="nav-item">
+            <a href="product.html" class="nav-link">Loja</a>
+          </li>
+          <li class="nav-item">
+            <a href="#terms" class="nav-link">Termos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contato</a>
+          </li>
+          <li class="icons d-flex">
+            <a href="login.html" class="icon">
+              <i class="bx bx-user"></i>
+            </a>
+            <div class="icon">
+              <i class="bx bx-search"></i>
+            </div>
+            <div class="icon">
+              <i class="bx bx-heart"></i>
+              <span class="d-flex">0</span>
+            </div>
+            <a href="cart.html" class="icon">
+              <i class="bx bx-cart"></i>
+              <span class="d-flex">0</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="icons d-flex">
+          <a href="login.html" class="icon">
+            <i class="bx bx-user"></i>
+          </a>
+          <div class="icon">
+            <i class="bx bx-search"></i>
+          </div>
+          <div class="icon">
+            <i class="bx bx-heart"></i>
+            <span class="d-flex">0</span>
+          </div>
+          <a href="cart.html" class="icon">
+            <i class="bx bx-cart"></i>
+            <span class="d-flex">0</span>
+          </a>
+        </div>
+
+        <div class="hamburger">
+          <i class="bx bx-menu-alt-left"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cart Items -->
+    <div class="container cart">
+      <table>
+        <tr>
+          <th>Produto</th>
+          <th>Quantidade</th>
+          <th>Subtotal</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/MOCHILA SEREIA.jpg" alt="" />
+              <div>
+                <p>Mini Mochila</p>
+                <span> Sereia: R$ 50,00</span> <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>R$ 50,00</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/BIQUINI INFANTIL.jpg" alt="" />
+              <div>
+                <p>Biquini Infantil</p>
+                <span>Verde Dinoussaro: R$ 55,00</span> <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>R$ 55,00</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/MAGA COMPRIDA INFANTIL.jpg" alt="" />
+              <div>
+                <p> Duas Peças tropicais  para crianças</p>
+                <span>Presta estampada: R$ 60.50</span> <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>R$ 60.50</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/WhatsApp Image 2024-03-22 at 17.43.07 ( POPUP).jpeg" alt="" />
+              <div>
+                <p>Moda Biquini Praia</p>
+                <span>Azul: R$ 120,00</span> <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>R$ 120,00</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/WhatsApp Image 2024-03-22 at 18.00.00 copy.jpeg" alt="" />
+              <div>
+                <p>Short Masculino</p>
+                <span>Verde Floral: R$ 60.80</span> <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>R$ 60.80</td>
+        </tr>
+      </table>
+      <div class="total-price">
+        <table>
+          <tr>
+            <td>Subtotal</td>
+            <td>$200</td>
+          </tr>
+          <tr>
+            <td>Tax</td>
+            <td>$50</td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>$250</td>
+          </tr>
+        </table>
+        <a href="#" class="checkout btn">Procedimento para finalizar a compra</a>
+      </div>
+    </div>
+
+    <!-- Latest Products -->
+    <section class="section featured">
+      <div class="top container">
+        <h1>Produtos Mais Recentes</h1>
+        <a href="#" class="view-more">Veja mais</a>
+      </div>
+      <div class="product-center container">
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="./images/WhatsApp Image 2024-03-15 at 18.53.34 copy 3.jpeg" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>MEIA TAÇA COM BOJO SUNKINI</span>
+            <a href="">Estampado</a>
+            <h4>R$ 65,00</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="./images/WhatsApp Image 2024-03-15 at 18.53.35 (4).jpeg" alt="" />
+            </a>
+            <span class="discount">40%</span>
+          </div>
+          <div class="product-info">
+            <span>MEIA TAÇA COM BOJO SUNKINI</span>
+            <a href="">Estampado</a>
+            <h4>R$ 65,00</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="./images/WhatsApp Image 2024-03-22 at 18.00.00.jpeg" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>Bermuda Masculina</span>
+            <a href="">Azul Estampado</a>
+            <h4>R$ 45,50</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="./images/short 5 at 17.59.59 ( PRODUCT -3 ).jpeg" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>Bermuda Masculina</span>
+            <a href="">Vermelho Estampado</a>
+            <h4>R$ 45,50</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="row">
+        <div class="col d-flex">
+          <h4>INFORMAÇÕES</h4>
+          <a href="">Sobre nós</a>
+          <a href="">Entre em contato conosco</a>
+          <a href="">Termos e Condições</a>
+          <a href="">Guia de envio</a>
+        </div>
+        <div class="col d-flex">
+          <h4>LINK ÚTIL</h4>
+          <a href="">Loja on-line</a>
+          <a href="">Atendimento ao cliente</a>
+          <a href="">Promoção</a>
+          <a href="">Principais marcas</a>
+        </div>
+
+        <!--Inicio Das Formas de Pagamento-->
+
+        <div class="Footer">
+          <div class="row">
+              <div class="product-info">
+                <h3>Pagamento Rápido e Seguro</h3><br>
+                <p>Boleto Bancario</p><br>
+                  <a href="#">
+                    <img src="./images/money.png" alt="Pagamento Santo Biquini"><br>
+                  </a>  
+                <h3>Até em 24x Parcelado</h3><br>
+                  <p>Com Cartão Santo Biquini</p><br>
+                    <a href="#">
+                      <img src="./images/card.png" alt="Pagamento Com Cartão Santo Biquini"><br>
+                    </a>
+                  <h3>Parcelamos Sem Juoros</h3><br>
+                  <p>Mais Baixo Do Brasil</p><br>
+                    <a href="#">
+                      <img src="./images/money1.png" alt="Pagamento Santo Biquini"><br>
+                    </a>
+                  <h3>PIX</h3><br>
+                  <p>Rapido e Seguro</p><br>
+                    <a href="#">
+                      <img src="./images/pix.png" alt="Pagamento com PIX"><br>
+                    </a>  
+                </a>
+              </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>

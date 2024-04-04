@@ -1,0 +1,495 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+            <!-- Boxicons -->
+            
+            <link
+            href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+            rel="stylesheet"
+            />
+            <!-- Glide js -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.css">
+            <!-- Custom StyleSheet -->
+            <link rel="stylesheet" href="./css/styles.css" />
+            <link rel="stylesheet" href="login.html" />
+            <link rel="stylesheet" href="produtos.html" />
+            <link rel="stylesheet" href="cadastro.php" />
+            <link rel="stylesheet" href="Detalhes do produto.html" />
+            <link rel="stylesheet" href="cart.html" />
+            <link rel="stylesheet" href="Connection_Database.php" />
+            <title>ecommerce Website</title>
+        </head>
+        <body>
+            <!-- Header -->
+            <header class="header" id="header">
+            <!-- Top Nav -->
+            <div class="top-nav">
+                <div class="container d-flex">
+                    <p>Faça seu pedido on-line ou ligue para nós: (13) 3422-2617</p>
+                    <ul class="d-flex">
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Perguntas frequentes</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+                </div>
+            </div>
+            <div class="navigation">
+                <div class="nav-center container d-flex">
+                <a href="product.html" class="logo"><h1>Santo Biquini</h1></a>
+
+                <ul class="nav-list d-flex">
+                    <li class="nav-item">
+                    <a href="#product.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="#product.html" class="nav-link">Loja</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#terms" class="nav-link">Termos</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="#about" class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contato</a>
+                    </li>
+                    <li class="icons d-flex">
+                    <a href="login.html" class="icon">
+                    <i class="bx bx-user"></i>
+                    </a>
+                    <div class="icon">
+                    <i class="bx bx-search"></i>
+                    </div>
+                    <div class="icon">
+                    <i class="bx bx-heart"></i>
+                    <span class="d-flex">0</span>
+                    </div>
+                    <a href="cart.html" class="icon">
+                    <i class="bx bx-cart"></i>
+                    <span class="d-flex">0</span>
+                    </a>
+                </li>
+                </ul>
+
+                <div class="icons d-flex">
+                    <a href="login.html" class="icon">
+                    <i class="bx bx-user"></i>
+                    </a>
+                    <div class="icon">
+                    <i class="bx bx-search"></i>
+                    </div>
+                    <div class="icon">
+                    <i class="bx bx-heart"></i>
+                    <span class="d-flex">0</span>
+                    </div>
+                    <a href="cart.html" class="icon">
+                    <i class="bx bx-cart"></i>
+                    <span class="d-flex">0</span>
+                    </a>
+                </div>
+
+                <div class="hamburger">
+                    <i class="bx bx-menu-alt-left"></i>
+                </div>
+                </div>
+            </div>
+
+            <div class="hero">
+            <div class="glide" id="glide_1">
+                <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                    <li class="glide__slide">
+                    <div class="center">
+                        <div class="left">
+                            <span class="">Nova inspiração 2024</span>
+                            <h1 class="">NOVA COLEÇÃO!</h1>
+                            <p>Tendências da coleção de estilo masculino e feminino</p>
+                            <a href="#" class="hero-btn">COMPRE AGORA</a>
+                        </div>
+                        <div class="right">
+                            <img class="img1" src="./images/WhatsApp Image 2024-03-22 at 17.51.29 ( HERO -1 ).jpeg" alt="">
+                        </div>
+                    </div>
+                    </li>
+                    <li class="glide__slide">
+                    <div class="center">
+                        <div class="left">
+                            <span>Nova inspiração 2024</span>
+                            <h1>A COMBINAÇÃO PERFEITA!</h1>
+                            <p>Tendências da coleção de estilo masculino e feminino</p>
+                            <a href="#" class="hero-btn">COMPRE AGORA</a>
+                        </div>
+                        <div class="right">
+                        <img class="img2" src="./images/WhatsApp Image 2024-03-22 at 17.51.31 ( HERO -2 ).jpeg" alt="">
+                        </div>
+                    </div>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            </div>
+            </header>
+
+            <!-- Categories Section -->
+            <section class="section category">
+            <div class="cat-center">
+                <div class="cat">
+                <img src="./images/WhatsApp Image 2024-03-22 at 17.43.11 ( CAT 3 ).jpeg" alt="" />
+                <div>
+                    <p>FEMININO</p>
+                </div>
+                </div>
+                <div class="cat">
+                <img src="./images/acessorio.png" alt="" />
+                <div>
+                    <p>ACESSÓRIOS</p>
+                </div>
+                </div>
+                <div class="cat">
+                <img src="./images/WhatsApp Image 2024-03-22 at 18.00.00 copy.jpeg" alt="" />
+                <div>
+                    <p>MASCULINA</p>
+                </div>
+                </div>
+            </div>
+            </section>
+
+            <!-- New Arrivals -->
+            <section class="section new-arrival">
+            <div class="title">
+                <h1>NOVIDADES</h1>
+                <p>Todas as novidades escolhidas pelo designer da nossa loja</p>
+            </div>
+
+            <div class="product-center">
+                <div class="product-item">
+                <div class="overlay">
+                    <a href="productDetails.html" class="product-thumb">
+                    <img src="./images/short 3 at 17.59.59  ( PRODUCT-1).jpeg" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>ROUPAS MASCULINAS</span>
+                    <a href="productDetails.html">BERMUDA FLORAL</a>
+                    <h4>R$ 70,65</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+                </div>
+                <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                    <img src="./images/short 4 at 17.59.59 ( PRODUCT -2).jpeg" alt="" />
+                    </a>
+                    <span class="discount">50%</span>
+                </div>
+
+                <div class="product-info">
+                    <span>ROUPAS MASCULINAS</span>
+                    <a href="">BERMUDA FLORAL</a>
+                    <h4>R$ 80,95</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+                </div>
+                <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                    <img src="./images/short 5 at 17.59.59 ( PRODUCT -3 ).jpeg" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>ROUPAS MASCULINAS</span>
+                    <a href="">BERMUDA FLORAL</a>
+                    <h4>R$ 50,89</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+                </div>
+                <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                    <img src="./images/WhatsApp Image 2024-03-15 at 18.53.34  ( PRODUCT -4).jpeg" alt="" />
+                    </a>
+                    <span class="discount">50%</span>
+                </div>
+                <div class="product-info">
+                    <span>ROUPAS FEMININO</span>
+                    <a href="">Meia Taça Bojo Caça Sunkini</a>
+                    <h4>R$ 60,40</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+                </div>
+                <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                    <img src="./images/WhatsApp Image 2024-03-22 at 17.43.12  ( PRODUCT -5 ).jpeg" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>ROUPAS FEMININO</span>
+                    <a href="">Biquini Top Preto</a>
+                    <h4>R$ 80,40</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+                </div>
+                <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                    <img src="./images/bolsa .png" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>BOULSA FEMININA</span>
+                    <a href="">Bolsa Praia</a>
+                    <h4>R$ 50,00</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+                </div>
+                <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                    <img src="./images/bolsa 2.png" alt="" />
+                    </a>
+                    <span class="discount">50%</span>
+                </div>
+                <div class="product-info">
+                    <span>BOULSA FEMININA</span>
+                    <a href="">Bolsa de Praia</a>
+                    <h4>R$ 65,50</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+                </div>
+                <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                    <img src="./images/acessorio.png" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>ROUPAS FEMININA</span>
+                    <a href="">Looks com acessórios</a>
+                    <h4>R$ 60,65</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+                </div>
+            </div>
+            </section>
+
+
+            <!-- Promo -->
+
+            <section class="section banner">
+        <div class="left">
+            <span class="trend">Design de tendências</span>
+            <h1>Nova Coleção 2024</h1>
+            <p>Novidades <span class="color">Promoção com 50% de desconto</span> Oferta por tempo limitado</p>
+            <a href="#" class="btn btn-1">Descubra agora</a>
+        </div>
+        <div class="right">
+        <img src="./images/banner.png" alt="">
+        </div>
+            </section>
+
+
+
+
+            <!-- Featured -->
+        
+            <section class="section new-arrival">
+            <div class="title">
+                <h1>Em destaque</h1>
+                <p>Todas as novidades escolhidas pelo designer da nossa loja</p>
+            </div>
+
+            <div class="product-center">
+                <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                    <img src="./images/camiseta homem.jpg" alt="" />
+                    </a>
+                    <span class="discount">50%</span>
+                </div>
+                <div class="product-info">
+                    <span>ROUPAS MASCULINAS</span>
+                    <a href="">estampa tropical Camisa & cintura com cordão Shorts sem camiseta</a>
+                    <h4>R$ 120,50</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+                </div>
+                <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                    <img src="./images/sunga box.jpg" alt="" />
+                    </a>
+                </div>
+
+                <div class="product-info">
+                    <span>ROUPAS MASCULINAS</span>
+                    <a href=""> Sunga masculina moda praia estampada modelo box</a>
+                    <h4>R$ 80,00</h4> 
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+                </div>
+                <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                    <img src="./images/kimono.jpg" alt="" />
+                    </a>
+                    <span class="discount">40%</span>
+                </div>
+                <div class="product-info">
+                    <span>ROUPAS FEMININA</span>
+                    <a href="">Kimonos de praia perfeitos, girls</a>
+                    <h4>R$ 150,00</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+                </div>
+                <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                    <img src="./images/CAMISE FEMININA.jpg" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>CAMISETA FEMININA</span>
+                    <a href="">Verão Roupas Femininas  Manga Curta</a>
+                    <h4>R$ 60,00</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+                </div>
+
+            </section>
+
+            <!-- Contact -->
+            <section class="section contact">
+            <div class="row">
+                <div class="col">
+                    <h2>EXCELENTE SUPORTE</h2>
+                    <p>Adoramos nossos clientes e eles podem entrar em contato conosco a qualquer momento
+                    do dia estaremos ao seu serviço 24 horas por dia, 7 dias por semana</p>
+                    <a href="" class="btn btn-1">Contato</a>
+                </div>
+                <div class="col">
+                <form action="">
+                    <div>
+                    <input type="email" placeholder="Email Address">
+                    <a href="">Enviar</a>
+                    </div>
+                </form>
+                </div>
+            </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer">
+            <div class="row">
+                <div class="col d-flex">
+                    <h4>INFORMAÇÕES</h4>
+                    <a href="">Sobre nós</a>
+                    <a href="">Entre em contato conosco</a>
+                    <a href="">Termos e Condições</a>
+                    <a href="">Guia de envio</a>
+                </div>
+                <div class="col d-flex">
+                    <h4>LINK ÚTIL</h4>
+                    <a href="">Loja on-line</a>
+                    <a href="">Atendimento ao cliente</a>
+                    <a href="">Promoção</a>
+                    <a href="">Principais marcas</a>
+                </div>
+                <div class="col d-flex">
+                    <a href="
+                    https://www.facebook.com/Stobiquini?mibextid=ZbWKwL" target="_blank">
+                    <span><i class="bx bxl-facebook-square"></i></span>
+                    </a>
+                    <a href="https://www.instagram.com/stobiquini?igsh=MWZqdzg0NGQybmFnZg%3D%3D" target="_blank">
+                    <span><i class="bx bxl-instagram-alt"></i></span>
+                  </a>
+                </div>
+            </div>
+            </footer>
+
+
+        <!-- PopUp -->
+        <div class="popup hide-popup">
+            <div class="popup-content">
+            <div class="popup-close">
+                <i class='bx bx-x'></i>
+            </div>
+            <div class="popup-left">
+                <div class="popup-img-container">
+                <img class="popup-img" src="./images/WhatsApp Image 2024-03-15 at 19.15.25 LOGO.jpeg" alt="popup">
+                </div>
+            </div>
+            <div class="popup-right">
+                <div class="right-content">
+                    <h1>Ganhe desconto de <span>50%</span></h1>
+                    <p>Assine nossa newsletter e economize 30% na sua próxima compra. Sem spam, nós prometemos!
+                    </p>
+                <form action="#">
+                    <input type="email" placeholder="Enter your email..." class="popup-form">
+                    <a href="#">Se inscrever</a>
+                </form>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        </body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+        <script src="./js/slider.js"></script>
+        <script src="./js/index.js"></script>
+        </html>
+
+?
